@@ -6,6 +6,7 @@ let page=await context.newPage()
  await page.locator('input#attended').click()
  await page.locator('input#willing_a').click()
  await page.getByRole('button',{name:'Continue'})
+ console.log("this is vs code")
 
 
 
